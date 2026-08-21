@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background: #f0ece2; /* tono corcho/pizarrón claro */
+  margin: 0;
+}
+
+header {
+  background: #23272f;
+  color: white;
+  padding: 1rem;
+}
+
+header {
+  background: #23272f;
+  color: white;
+  padding: 1rem;
+}
+
+h2 {
+  color: #2f6f62;
+}
+
+@media (max-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  nav a {
+    display: block;
+  }
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
